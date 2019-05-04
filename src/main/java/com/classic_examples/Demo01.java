@@ -1,4 +1,4 @@
-package com.data_structure;
+package com.classic_examples;
 
 import java.util.*;
 

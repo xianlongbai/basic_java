@@ -28,14 +28,14 @@ public class SequenceInputStreamTest {
         try {
             // 构建流集合。
             Vector<InputStream> vector = new Vector<InputStream>();
-            vector.addElement(new FileInputStream("D:\text1.txt"));
-            vector.addElement(new FileInputStream("D:\text2.txt"));
-            vector.addElement(new FileInputStream("D:\text3.txt"));
+            vector.addElement(new FileInputStream("D:\\text1.txt"));
+            vector.addElement(new FileInputStream("D:\\text2.txt"));
+            vector.addElement(new FileInputStream("D:\\text3.txt"));
             Enumeration<InputStream> e = vector.elements();
 
             sis = new SequenceInputStream(e);
 
-            bos = new BufferedOutputStream(new FileOutputStream("D:\text4.txt"));
+            bos = new BufferedOutputStream(new FileOutputStream("D:\\text4.txt"));
             // 读写数据
             byte[] buf = new byte[1024];
             int len = 0;

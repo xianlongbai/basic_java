@@ -1,4 +1,4 @@
-package com.classic_examples;
+package com.data_structure;
 
 /**
  * Created by root on 2019/4/1.
