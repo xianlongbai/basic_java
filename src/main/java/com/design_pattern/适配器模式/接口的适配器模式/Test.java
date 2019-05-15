@@ -25,5 +25,6 @@ public class Test {
         source1.method2();
         source2.method1();
         source2.method2();
+
     }
 }
