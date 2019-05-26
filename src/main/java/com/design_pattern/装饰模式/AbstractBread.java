@@ -2,6 +2,8 @@ package com.design_pattern.装饰模式;
 
 /**
  * Created by root on 2019/5/15.
+ *
+ * 装饰类
  */
 public class AbstractBread implements IBread {
 

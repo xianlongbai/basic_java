@@ -2,6 +2,8 @@ package com.design_pattern.装饰模式;
 
 /**
  * Created by root on 2019/5/15.
+ *
+ * 被装饰类
  */
 public class NormalBread implements IBread{
 

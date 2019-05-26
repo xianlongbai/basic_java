@@ -2,6 +2,7 @@ package com.design_pattern.装饰模式;
 
 /**
  * Created by root on 2019/5/15.
+ * 具体装饰类
  */
 public class SweetDecorator extends AbstractBread {
 

@@ -7,6 +7,30 @@
     <groupId>com.bxl</groupId>
     <artifactId>basic_java</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.10</version>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.23.2-GA</version>
+            <type>bundle</type>
+        </dependency>-->
+
+        <dependency>
+            <groupId>javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.12.0.SP1</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
