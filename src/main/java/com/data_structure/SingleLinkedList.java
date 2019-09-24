@@ -426,7 +426,7 @@ public class SingleLinkedList {
 //        linkList.reserveLink();
 //        System.out.println(linkList);
 
-//        linkList.reservePrt(linkList.head);
+        linkList.reservePrt(linkList.head);
 //        linkList.reservePrt2(linkList.head);
 
 //        Node n3 = linkList.findMiddleNode();
@@ -443,7 +443,7 @@ public class SingleLinkedList {
 //        System.out.println(cycleLength);
 
         //linkList3.head = linkList3.mergeLinkList(linkList.head, linkList2.head);
-        linkList3.head = linkList3.merge(linkList.head, linkList2.head);
+        //linkList3.head = linkList3.merge(linkList.head, linkList2.head);
     }
 
 
