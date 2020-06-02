@@ -13,8 +13,9 @@ public class Test {
         list.add(6);
         list.add(4);
         list.add(888);
-        list.add(5);
         list.add(777);
+        list.add(5);
+        list.add(666);
         System.out.println(list.get(3));
 
     }
