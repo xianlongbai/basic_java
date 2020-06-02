@@ -66,4 +66,71 @@ public class Demo01 {
 //        System.out.println("结果：["+res[0]+","+res[1]+"]");
 
     }
+
+    /**
+     * Created by root on 2019/9/25.
+     *
+     * 不好意思，昨晚电脑没电了，今早做了一下，抱歉~
+     *
+     *
+     *
+     *
+     1、将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+
+     2、给定一个仅包含小写字母的字符串，去除字符串中重复的字母，使得每个字母只出现一次。
+     需保证返回结果的字典序最小（要求不能打乱其他字符的相对位置）。
+
+     3、如何100万个数找出最大的100个数（伪代码或者思路），并列出对应的时间、空间复杂度。
+     *
+     *  先取出100数作为一个数组进行排序，然后用数组中最小值和其它的数做比较，如果大于数组最小值，就替换掉，
+     *  然后重新排序数组，然后再开始新的一轮比较
+     *
+     *
+     */
+    public static class Test {
+
+        public static void main(String[] args){
+
+    //        List<Integer> a = new ArrayList();
+    //        List<Integer> b = new ArrayList();
+    //        a.add(1);a.add(6);a.add(9);
+    //        b.add(3);b.add(5);a.add(8);
+    //        List<Integer> c  = new ArrayList();
+    //        int i=0; int j=0;
+    //        while(i<a.size() && j<b.size()){
+    //            if(a.get(i)<=b.get(j)){
+    //                c.add(a.get(i));
+    //                i++;
+    //            }else{
+    //                c.add(b.get(j));
+    //                j++;
+    //            }
+    //        }
+    //        while(i<a.size()){
+    //            c.add(a.get(i));
+    //            i++;
+    //        }
+    //        while(j<b.size()){
+    //            c.add(b.get(j));
+    //            j++;
+    //        }
+    //        System.out.println(c);
+
+            String str="jaaaaaiogmeadga";
+
+            char [] array =str.toCharArray();
+            List<Character> res = new ArrayList();
+            res.add(array[0]);
+
+            for (int i = 1; i < array.length; i++) {
+                if (!res.contains(array[i])){
+                    res.add(array[i]);
+                }
+            }
+
+            System.out.println(Arrays.toString(res.toArray()));
+
+        }
+
+    }
 }

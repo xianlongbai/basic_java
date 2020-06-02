@@ -1,6 +1,11 @@
 package com.my_collection;
 
+import sun.nio.ch.ThreadPool;
+
 import java.util.*;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Created by root on 2019/4/13.
@@ -27,6 +32,7 @@ public class Test {
             System.out.println(o);
         }
 
+        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
 
 
     }

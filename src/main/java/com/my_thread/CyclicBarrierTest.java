@@ -37,7 +37,7 @@ class SubTask extends Thread {
     public void run(){
         System.out.println("[子任务"+name+"]开始执行了！");
         for(int i=0;i<999999;i++);//模拟耗时的任务
-        System.out.println("[子任务" + name +"]开始执行完成了，并通知障碍器已经完成！");
+        System.out.println("[子任务" + name +"]执行完成了，并通知障碍器已经完成！");
         try {
             //通知障碍器已经完成
             cb.await();
